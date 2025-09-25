@@ -254,7 +254,7 @@
                     <span>Name:</span> <span>Vinesh Jadav</span>
                   </li>
                   <li class="d-flex">
-                    <span>Date of birth:</span> <span>Jun 01,2000</span>
+                    <span>Date of birth:</span> <span>Jun 01,xxxx</span>
                   </li>
                   <li class="d-flex">
                     <span>Address:</span> <span> valsad </span>
@@ -430,7 +430,7 @@
                 <i class="flaticon-flasks"></i>
               </span>
               <div class="desc">
-                <h3 class="mb-5">Portfolio</h3>
+                <h3 class="mb-5">Portfolio </h3>
               </div>
             </a>
           </div>
@@ -471,7 +471,7 @@
                 <i class="flaticon-ideas"></i>
               </span>
               <div class="desc">
-                <h3 class="mb-5">EPFO Client services</h3>
+                <h3 class="mb-5">Online form services/</h3>
               </div>
             </a>
           </div>
@@ -482,6 +482,27 @@
               </span>
               <div class="desc">
                 <h3 class="mb-5">Logo,Thumbnail,Banner</h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="flaticon-ideas"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Cyber security</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="flaticon-ideas"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Video Editing </h3>
               </div>
             </a>
           </div>
@@ -643,11 +664,7 @@
     </section>
 
     <!-- -------------adsens------------------------------------ -->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2673766259445228"
-      crossorigin="anonymous"
-    ></script>
+    
     <!-- motivational spiritual inspiration ,phone illustration -->
     <ins
       class="adsbygoogle"
@@ -663,17 +680,7 @@
 
     <!-- ------------------------------------- -->
 
-    <amp-ad
-      width="100vw"
-      height="320"
-      type="adsense"
-      data-ad-client="ca-pub-2673766259445228"
-      data-ad-slot="3962525888"
-      data-auto-format="rspv"
-      data-full-width=""
-    >
-      <div overflow=""></div>
-    </amp-ad>
+    
 
     <!-- ------------------------------------------------- -->
 
@@ -858,7 +865,7 @@
               <a
                 href="single3.html"
                 class="block-20"
-                style="background-image: url('images/python.png')"
+                style="background-image: url('images/home1.png')"
               >
               </a>
               <div class="text mt-3 float-right d-block">
@@ -873,7 +880,7 @@
                 </div>
                 <h3 class="heading">
                   <a href="single3.html"
-                    >Python interview questions(Most Popular)</a
+                    >UpgradeYourselfHub(Most Popular)</a
                   >
                 </h3>
                 <p>
@@ -988,7 +995,7 @@
                 <span class="icon-map-signs"></span>
               </div>
               <h3 class="mb-4">Address</h3>
-              <p>khamdahad, bopi ,dharampur valsad</p>
+              <p>.valsad</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -1036,7 +1043,7 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <form class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
                 <input
                   type="text"
@@ -1067,6 +1074,7 @@
               <div class="form-group">
                 <input
                   type="submit"
+                  onclick="sendmail()"
                   value="Send Message"
                   class="btn btn-primary py-3 px-5"
                 />
@@ -1173,7 +1181,7 @@
                   <li>
                     <span class="icon icon-map-marker"></span
                     ><span class="text"
-                      >khamdahad, bopi ,dharampur valsad , India</span
+                      >.valsad , India</span
                     >
                   </li>
                   <li>
@@ -1267,20 +1275,26 @@
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    <!-- send mail using smpt.js -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function sendemail() {
+        Email.send({
+          Host: "smtp.mailendo.com",
+          Username: "vineshjadav0101.cs@gmail.com",
+          Password: "92D7A57A1762A2FD682D3AA7C76ED3092673",
+          To: "jadavnick555@gmail.com",
+          From: "vineshjadav0101.cs@gmail.com ",
+          Subject: "This is the subject",
+          Body: "And this is the body",
+        }).then((message) => alert(message));
+      }
+    </script>
 
     <!-- ------------------------------------------------------------- -->
 
-    <amp-ad
-      width="100vw"
-      height="320"
-      type="adsense"
-      data-ad-client="ca-pub-2673766259445228"
-      data-ad-slot="3938475154"
-      data-auto-format="mcrspv"
-      data-full-width=""
-    >
-      <div overflow=""></div>
-    </amp-ad>
     <!-- ----------------------------------------------------------------------------------------------------------- -->
   </body>
 </html>
